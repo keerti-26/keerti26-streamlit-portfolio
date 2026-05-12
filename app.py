@@ -31,6 +31,11 @@ set_bg_hack('image1.avif')
 st.markdown("<h1 style='color:#7FB8D9;'> Keerti Ojha </h1>", unsafe_allow_html=True)
 # st.subheader("Data Engineer building scalable Data Products and AI Native Analytical Solutions")
 st.markdown("<h4 style='color:#7FB8D9;'> Data Engineer building scalable Data Products and AI Native Analytical Solutions </h4>", unsafe_allow_html=True)
+st.markdown(
+    "<p style='color:#7FB8D9;'>📧 <a href='mailto:keertiojha26@gmail.com' style='color:#7FB8D9;'>keertiojha26@gmail.com</a> &nbsp;|&nbsp; "
+    "🔗 <a href='https://www.linkedin.com/in/keertiojha/' target='_blank' style='color:#7FB8D9;'>linkedin.com/in/keertiojha</a></p>",
+    unsafe_allow_html=True
+)
 
 st.divider()
 
@@ -88,6 +93,9 @@ custom_css = """
         background-color: white !important;
         border-color: white !important;
     }
+    [data-testid="stMarkdown"] details summary {
+        color: #7FB8D9;
+    }
 </style>
 """
 
@@ -102,7 +110,10 @@ for name,details in projects.items():
         # st.markdown("<p style='color:#7FB8D9;'>Project Link: </p>" [Link](https://github.com/keerti-26/VoiceOps-AI-Real-Time-Emergency-Response-Pipeline)", unsafe_allow_html=True)
 
 st.divider()
+st.markdown("<h1 style='color:#7FB8D9;'> Certifications </h1>", unsafe_allow_html=True)
+certifications=["MIT Applied Generative AI for Digital Transformation", "Azure Data Engineer Associate"]
 
-
+for i, c in enumerate(certifications, 1):
+    st.markdown(f"<p style='color:#7FB8D9;'>{i}. {c}</p>", unsafe_allow_html=True)
 
 
