@@ -64,6 +64,11 @@ projects = {
         "skills" : "Python, LangChain, LLMs, MCP",
         "github": "https://github.com/keerti-26/Agents-using-LangChain"
     },
+    "CDC-Pipeline-Databricks":{
+       "description": "A Change Data Capture (CDC) pipeline built on Databricks that simulates real-world customer record changes and processes them through a Bronze → Silver → Gold medallion architecture using Delta Lake.",
+       "skills": "Databricks, python, CDC, Data Pipeline, Medallion Architecture, json input",
+       "github": "https://github.com/keerti-26/CDC-Pipeline-Databricks"
+    },
     "Emergency Calls Pipeline":{
         "description": "The main aim of our project is to handle Emergency audio calls and build a fully functional data pipeline to notify it to the correct entities using various AWS services and demonstrating insights in a reference web application.",
         "skills": "AWS S3, DynamoDB, Lambda, API Gateway, SNS, Streamlit, Pytest, Locust, PowerBI",
