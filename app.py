@@ -121,7 +121,7 @@ for name,details in projects.items():
 
 st.divider()
 st.markdown("<h1 style='color:#7FB8D9;'> Certifications </h1>", unsafe_allow_html=True)
-certifications=["MIT Applied Generative AI for Digital Transformation", "Azure Data Engineer Associate"]
+certifications=["MIT Applied Generative AI for Digital Transformation", "Azure Data Engineer Associate", "DataExpert.io AI Engineering"]
 
 for i, c in enumerate(certifications, 1):
     st.markdown(f"<p style='color:#7FB8D9;'>{i}. {c}</p>", unsafe_allow_html=True)
