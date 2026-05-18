@@ -64,6 +64,11 @@ projects = {
         "skills" : "Python, LangChain, LLMs, MCP",
         "github": "https://github.com/keerti-26/Agents-using-LangChain"
     },
+    "Data-Engineering RAG":{
+         "description": "An end-to-end Hybrid Retrieval-Augmented Generation (RAG) pipeline that combines semantic vector search and BM25 keyword search to answer data engineering questions using grounded context from custom knowledge documents.",
+         "skills": "RAG, Chunking, Embedding, Semantic Search, Keyword Search, Vector Store, Ollama, Streamlit, SentenceTransformer",
+         "github": "https://github.com/keerti-26/Data-Engineer-RAG"
+    },
     "CDC-Pipeline-Databricks":{
        "description": "A Change Data Capture (CDC) pipeline built on Databricks that simulates real-world customer record changes and processes them through a Bronze → Silver → Gold medallion architecture using Delta Lake.",
        "skills": "Databricks, python, CDC, Data Pipeline, Medallion Architecture, json input",
