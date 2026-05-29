@@ -69,9 +69,9 @@ projects = {
          "skills": "RAG, Chunking, Embedding, Semantic Search, Keyword Search, Vector Store, Ollama, Streamlit, SentenceTransformer",
          "github": "https://github.com/keerti-26/Data-Engineer-RAG"
     },
-    "CDC-Pipeline-Databricks":{
-       "description": "A Change Data Capture (CDC) pipeline built on Databricks that simulates real-world customer record changes and processes them through a Bronze → Silver → Gold medallion architecture using Delta Lake.",
-       "skills": "Databricks, python, CDC, Data Pipeline, Medallion Architecture, json input",
+    "Production-Grade-Customer-Event-Lakehouse-on-Databricks":{
+       "description": "This project demonstrates the design and implementation of a production-style Customer Event Lakehouse using Databricks, Delta Lake, and PySpark.The solution ingests customer, order, clickstream, and CDC data into a Medallion Architecture (Bronze → Silver → Gold), applies data quality validation, handles invalid records through quarantine processing, maintains historical customer changes using SCD Type 2, and produces a Customer 360 analytics model for downstream reporting and AI-ready analytics.",
+       "skills": "Databricks, Delta Lake, PySpark, Spark SQL, CDC Processing, Unity Catalog, Medallion Architecture, Slowly Changing Dimension (SCD Type 2), Data Quality Validation, Observability & Monitoring",
        "github": "https://github.com/keerti-26/CDC-Pipeline-Databricks"
     },
     "Emergency Calls Pipeline":{
@@ -109,7 +109,7 @@ custom_css = """
 </style>
 """
 
-st.snow()
+# st.snow()
 st.markdown(custom_css, unsafe_allow_html=True)
 
 for name,details in projects.items():
