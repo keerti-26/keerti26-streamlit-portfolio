@@ -59,6 +59,11 @@ projects = {
         "skills": "Azure, FastAPI, Next.js, Cosmos DB, Azure Maps, LLMs",
         "github": "https://github.com/keerti-26/VoiceOps-AI-Real-Time-Emergency-Response-Pipeline"
     },
+    "Production-Grade-Customer-Event-Lakehouse-on-Databricks":{
+       "description": "This project demonstrates the design and implementation of a production-style Customer Event Lakehouse using Databricks, Delta Lake, and PySpark.The solution ingests customer, order, clickstream, and CDC data into a Medallion Architecture (Bronze → Silver → Gold), applies data quality validation, handles invalid records through quarantine processing, maintains historical customer changes using SCD Type 2, and produces a Customer 360 analytics model for downstream reporting and AI-ready analytics.",
+       "skills": "Databricks, Delta Lake, PySpark, Spark SQL, CDC Processing, Unity Catalog, Medallion Architecture, Slowly Changing Dimension (SCD Type 2), Data Quality Validation, Observability & Monitoring",
+       "github": "https://github.com/keerti-26/Production-Grade-Customer-Event-Lakehouse-on-Databricks"
+    },
     "LLM Context Handling LangChain":{
         "description":"This project tackles three key challenges in LLM context handling: delivering clean, relevant context, preventing excessive or repetitive retrieval that wastes tokens, and using a three-layer middleware system to limit the tools passed from MCP to the LLM.",
         "skills" : "Python, LangChain, LLMs, MCP",
@@ -68,11 +73,6 @@ projects = {
          "description": "An end-to-end Hybrid Retrieval-Augmented Generation (RAG) pipeline that combines semantic vector search and BM25 keyword search to answer data engineering questions using grounded context from custom knowledge documents.",
          "skills": "RAG, Chunking, Embedding, Semantic Search, Keyword Search, Vector Store, Ollama, Streamlit, SentenceTransformer",
          "github": "https://github.com/keerti-26/Data-Engineer-RAG"
-    },
-    "Production-Grade-Customer-Event-Lakehouse-on-Databricks":{
-       "description": "This project demonstrates the design and implementation of a production-style Customer Event Lakehouse using Databricks, Delta Lake, and PySpark.The solution ingests customer, order, clickstream, and CDC data into a Medallion Architecture (Bronze → Silver → Gold), applies data quality validation, handles invalid records through quarantine processing, maintains historical customer changes using SCD Type 2, and produces a Customer 360 analytics model for downstream reporting and AI-ready analytics.",
-       "skills": "Databricks, Delta Lake, PySpark, Spark SQL, CDC Processing, Unity Catalog, Medallion Architecture, Slowly Changing Dimension (SCD Type 2), Data Quality Validation, Observability & Monitoring",
-       "github": "https://github.com/keerti-26/CDC-Pipeline-Databricks"
     },
     "Emergency Calls Pipeline":{
         "description": "The main aim of our project is to handle Emergency audio calls and build a fully functional data pipeline to notify it to the correct entities using various AWS services and demonstrating insights in a reference web application.",
