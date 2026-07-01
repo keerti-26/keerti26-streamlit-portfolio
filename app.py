@@ -64,20 +64,15 @@ projects = {
        "skills": "Streaming Architectures, Delta Lake, Kafka, PySpark, Workflow Orchestration, Data Quality Engineering, AI Agents, Medallion Architecture, OpenAI Integration, Production Monitoring, Incident Management",
        "github": "https://github.com/keerti-26/Real-Time-E-Commerce-Events-Anomaly-Detection-AI-Agent-Alerting-Platform"
     },
-    "Ecommerce Events Real Time Data Pipeline":{
-       "description": "A modern, end-to-end data engineering pipeline demonstrating real-time ingestion, stream processing, and storage using Apache Kafka, Apache Spark Structured Streaming, and Delta Lake structured around the Medallion Architecture.",
-       "skills": "Docker & Docker Compose, Apache Kafka (KRaft mode), Spark Structured Streaming, Delta Lake on MinIO, Python",
-       "github": "https://github.com/keerti-26/E-Commerce-Events-Real-Time-Data-Pipeline"
+    "CareBot AI RAG System":{
+         "description": " This is a system for general medical queries using trusted reference material to ensure responses are grounded in verifiable data, I used the Gale Encyclopedia of Medicine as the core knowledge base.",
+         "skills": "LangChain, RAG, Chunking, Embedding, Semantic Search, Vector Store, GPT, SentenceTransformer",
+         "github": "https://github.com/keerti-26/CareBot-using-LangChain-and-Pinecone"
     },
     "LLM Context Handling LangChain":{
         "description":"This project tackles three key challenges in LLM context handling: delivering clean, relevant context, preventing excessive or repetitive retrieval that wastes tokens, and using a three-layer middleware system to limit the tools passed from MCP to the LLM.",
         "skills" : "Python, LangChain, LLMs, MCP",
         "github": "https://github.com/keerti-26/Agents-using-LangChain"
-    },
-    "Data-Engineering RAG":{
-         "description": "An end-to-end Hybrid Retrieval-Augmented Generation (RAG) pipeline that combines semantic vector search and BM25 keyword search to answer data engineering questions using grounded context from custom knowledge documents.",
-         "skills": "RAG, Chunking, Embedding, Semantic Search, Keyword Search, Vector Store, Ollama, Streamlit, SentenceTransformer",
-         "github": "https://github.com/keerti-26/Data-Engineer-RAG"
     },
     "Emergency Calls Pipeline":{
         "description": "The main aim of our project is to handle Emergency audio calls and build a fully functional data pipeline to notify it to the correct entities using various AWS services and demonstrating insights in a reference web application.",
