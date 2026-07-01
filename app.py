@@ -59,10 +59,10 @@ projects = {
         "skills": "Azure, FastAPI, Next.js, Cosmos DB, Azure Maps, LLMs",
         "github": "https://github.com/keerti-26/VoiceOps-AI-Real-Time-Emergency-Response-Pipeline"
     },
-    "Production-Grade-Customer-Event-Lakehouse-on-Databricks":{
-       "description": "This project demonstrates the design and implementation of a production-style Customer Event Lakehouse using Databricks, Delta Lake, and PySpark.The solution ingests customer, order, clickstream, and CDC data into a Medallion Architecture (Bronze → Silver → Gold), applies data quality validation, handles invalid records through quarantine processing, maintains historical customer changes using SCD Type 2, and produces a Customer 360 analytics model for downstream reporting and AI-ready analytics.",
-       "skills": "Databricks, Delta Lake, PySpark, Spark SQL, CDC Processing, Unity Catalog, Medallion Architecture, Slowly Changing Dimension (SCD Type 2), Data Quality Validation, Observability & Monitoring",
-       "github": "https://github.com/keerti-26/Production-Grade-Customer-Event-Lakehouse-on-Databricks"
+    "Real-Time E-Commerce Events Anomaly Detection & AI Agent Alerting Platform":{
+       "description":"The platform simulates an e-commerce clickstream environment, processes events , detect anomalies in near real time and generates AI powered incident summary delivered to Discord Channel.",
+       "skills": "Streaming Architectures, Delta Lake, Kafka, PySpark, Workflow Orchestration, Data Quality Engineering, AI Agents, Medallion Architecture, OpenAI Integration, Production Monitoring, Incident Management",
+       "github": "https://github.com/keerti-26/Real-Time-E-Commerce-Events-Anomaly-Detection-AI-Agent-Alerting-Platform"
     },
     "Ecommerce Events Real Time Data Pipeline":{
        "description": "A modern, end-to-end data engineering pipeline demonstrating real-time ingestion, stream processing, and storage using Apache Kafka, Apache Spark Structured Streaming, and Delta Lake structured around the Medallion Architecture.",
@@ -88,6 +88,11 @@ projects = {
         "description":"A minimal FastAPI app with LangChain agent endpoints powered by LangGraph, with a lightweight browser frontend",
         "skills": "LLMs, MCP, LangChain, LangGraph, Middleware(Profainty filter)",
         "github": "https://github.com/keerti-26/Langchain-Starter-Repo/tree/master"
+    },
+    "Production-Grade-Customer-Event-Lakehouse-on-Databricks":{
+       "description": "This project demonstrates the design and implementation of a production-style Customer Event Lakehouse using Databricks, Delta Lake, and PySpark.The solution ingests customer, order, clickstream, and CDC data into a Medallion Architecture (Bronze → Silver → Gold), applies data quality validation, handles invalid records through quarantine processing, maintains historical customer changes using SCD Type 2, and produces a Customer 360 analytics model for downstream reporting and AI-ready analytics.",
+       "skills": "Databricks, Delta Lake, PySpark, Spark SQL, CDC Processing, Unity Catalog, Medallion Architecture, Slowly Changing Dimension (SCD Type 2), Data Quality Validation, Observability & Monitoring",
+       "github": "https://github.com/keerti-26/Production-Grade-Customer-Event-Lakehouse-on-Databricks"
     }
 }
 
